@@ -1,7 +1,7 @@
 #!/bin/bash -eu
 
 # This sets the -coverpgk for the coverage report when the corpus is executed through go test
-coverpkg="github.com/holiman/uint256/..."
+coverpkg="github.com/Sahil-4555/uint256/..."
 
 (cd /src/ && git clone https://github.com/holiman/gofuzz-shim.git )
 
